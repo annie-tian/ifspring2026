@@ -1,0 +1,39 @@
+h1 {
+    font-family: Helvetica;
+    font-weight: 800;
+    color: rgb(107, 56, 8);
+    padding-top: 1em;
+    margin-bottom: 0em;
+    font-size: 36px;
+}
+
+h2 {
+    font-family: Helvetica;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 0.2em;
+    padding-bottom: 1em;
+    color: rgb(43, 43, 43);
+}
+
+body {
+    margin-left: 6em;
+    background-color: rgb(232, 242, 246);
+}
+
+.section {
+    font-size: 12px;
+    font-weight: 800;
+    color: rgb(107, 56, 8);
+}
+
+img {
+    padding-bottom: 2em;
+}
+
+p {
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgb(43, 43, 43);
+}
