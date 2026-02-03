@@ -1,0 +1,92 @@
+html {
+     font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+h3 {
+    font-size: 16px;
+    font-variant: small-caps;
+    margin-bottom: -22px;
+    color: rgb(56, 125, 162);
+}
+
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    background-color: rgb(215, 238, 250);
+}
+
+p {
+    font-size: 24px;
+}
+
+.round-box {
+    justify-content: center;
+    width: 550px;
+    height: fit-content;
+    background-color:rgb(234, 245, 251);
+    border: 2px solid rgb(13, 92, 135);
+    margin: 0px;
+    color: rgb(13, 92, 135);
+    border-radius: 25px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 80px;
+}
+
+#lighter {
+    font-weight: lighter;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#bolder {
+    font-weight: bolder;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#ls-one {
+    letter-spacing: .3em;
+}
+
+#ls-two {
+    letter-spacing: -.06em;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+#line-through {
+    text-decoration: line-through;
+}
+
+#overline {
+    text-decoration: overline;
+}
+
+#uppercase {
+    text-transform: uppercase;
+}
+
+#lowercase {
+    text-transform: lowercase;
+}
+
+#capitalize {
+    text-transform: capitalize;
+}
