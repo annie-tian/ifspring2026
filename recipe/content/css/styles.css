@@ -1,0 +1,22 @@
+body {
+    margin: 5em 20%;
+}
+
+img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+ul.grid{
+    list-style-type: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid li {
+    display: block;
+    width: 80%;
+}
