@@ -1,0 +1,199 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dec8c8;
+    font-family: new-zen, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.6;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.main-column {
+    width: 100%;
+    max-width: 1000px;
+    border: 1px solid #eeeeee;
+    margin: auto;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.1);
+}
+
+.header {
+    text-align: left;
+}
+
+.header-img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid rgb(115, 13, 13);
+    border-top-right-radius: 40%;
+    border-top-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+    border-bottom-left-radius: 40%;
+    object-fit: contain;
+}
+
+.header h1 {
+    bottom: 10px;
+    color: rgb(115, 13, 13);
+    padding: 10px;
+}
+
+h2 {
+    color: rgb(115, 13, 13);
+}
+
+h3 {
+    color: #11114d;
+}
+
+.container {
+    padding: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.info div {
+    background: #f8e9ed;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.instructions .step img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+.materials {
+    padding: 15px;
+    background-color: rgb(225, 234, 252);
+    border-radius: 8px;
+}
+
+.materials ul {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.materials input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.materials h2 {
+    margin-bottom: 10px;
+}
+
+.materials h3 {
+    margin-top: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: #11114d;
+    color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+
+ 
+@media (min-width: 1024px) {
+
+    .info {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+
+    .materials {
+        position: sticky;
+        top: 20px;
+        align-self: start;
+    }
+
+    .materials h2:nth-of-type(2) {
+        margin-top: 40px;
+    }
+
+    .content-grid {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .header h1 {
+        font-size: 40px;
+        padding: 20px;
+    }
+
+    .instructions .step {
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .instructions .step img {
+        display: block;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        flex-shrink: 0;
+    }
+
+    .instructions .step p {
+        margin: 0;
+        flex: 1;
+    }
+}
+
+@media (min-width: 430px) {
+
+    .info {
+        flex-wrap: wrap;
+    }
+
+    .instructions .step img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin-top: 40px;
+    }
+}
