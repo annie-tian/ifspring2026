@@ -1,0 +1,195 @@
+a#btn_mollyjogger {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    height: 50px;
+    margin-top: 100px;
+    padding: 0 20px;
+
+    background-color: #3e4b3c; /* earthy green */
+    border: 2px solid #3e4b3c;
+    border-radius: 6px;
+
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+}
+
+a#btn_mollyjogger:hover {
+    background-color: transparent;
+    color: #3e4b3c;
+}
+
+a#btn_mogardens {
+    position: relative;
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    margin-top: 80px;
+
+    background-color: #fff; /* white button */
+    border: 2px solid #2e6b3e;
+    border-radius: 10px;
+
+    overflow: hidden;
+    text-decoration: none;
+}
+
+a#btn_mogardens img {
+    position: absolute;
+    width: 70px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s ease;
+}
+
+a#btn_mogardens span {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+
+    color: #2e6b3e;
+    font-size: 11px;
+    text-align: center;
+    line-height: 1.2;
+
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+a#btn_mogardens:hover img {
+    transform: translate(-50%, -85%);
+}
+
+a#btn_mogardens:hover span {
+    opacity: 1;
+}
+
+a#btn_lyft {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 160px;
+    margin: 90px auto 0 auto;
+    background-color: #fff;
+    border: 2px solid #FF00BF;
+    border-radius: 30px;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+a#btn_lyft img {
+    height: 30px;
+    transition: opacity 0.3s ease;
+}
+
+a#btn_lyft i {
+    position: absolute;
+    color: #FF00BF;
+    font-size: 28px;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.3s ease;
+}
+
+a#btn_lyft:hover img {
+    opacity: 0;
+}
+
+a#btn_lyft:hover i {
+    opacity: 1;
+    transform: scale(1);
+}
+
+a#btn_moo {
+    display: inline-block;
+    margin-top: 100px;
+    transition: transform 0.3s ease;
+}
+
+a#btn_moo img {
+    width: 120px;
+    display: block;
+}
+
+a#btn_moo:hover {
+    transform: scale(1.2);
+}
+
+a#btn_moo::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+        120deg,
+        rgba(255,255,255,0) 0%,
+        rgba(255,255,255,0.6) 50%,
+        rgba(255,255,255,0) 100%
+    );
+    transform: skewX(-20deg);
+}
+
+a#btn_moo:hover::after {
+    left: 125%;
+    transition: left 1s ease;
+}
+
+a#btn_stjude {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 160px;
+    margin-top: 90px;
+    background-color: #C10F3A;
+    border: 2px solid #C10F3A;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+a#btn_stjude span {
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+
+a#btn_stjude img {
+    position: absolute;
+    height: 30px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+a#btn_stjude:hover {
+    box-shadow: 0 0 12px rgba(193, 15, 58, 0.6),
+                0 0 24px rgba(193, 15, 58, 0.4);
+    background-color: #fff;
+}
+
+a#btn_stjude:hover span {
+    opacity: 0;
+}
+
+a#btn_stjude:hover img {
+    opacity: 1;
+}
