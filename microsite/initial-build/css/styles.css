@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #000000;
+}
+
+.header {
+  background: #f4c400;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.nav a {
+  background: red;
+  color: white;
+  padding: 8px 15px;
+  margin: 0 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  background: white;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background: linear-gradient(#f1dbdb, #eaa9a9);
+}
+
+.hero-left {
+  max-width: 450px;
+}
+
+.logo {
+  background: red;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.hero h1 {
+  font-size: 26px;
+}
+
+.hero p {
+  font-size: 14px;
+}
+
+.buttons a {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: red;
+  color: white;
+  text-decoration: none;
+}
+
+.explore {
+  text-align: center;
+  padding: 30px;
+}
+
+.explore button {
+  background: #f4c400;
+  border: none;
+  padding: 12px 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: nowrap;
+}
+
+.cards img {
+  width: 30%;
+  max-width: 250px;
+  height: auto;
+  object-fit: cover;
+}
+
+.media {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  background: linear-gradient(#f1dbdb, #eaa9a9);
+}
+
+.media img {
+  margin-right: 20px;
+}
+
+.media-text h2 {
+  background: red;
+  color: white;
+  padding: 8px;
+  display: inline-block;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+}
+
+.informational h1 {
+  text-align: center;
+}
+
+.informational h2 {
+  color: red;
+  margin-top: 20px;
+}
+
+.informational p {
+  font-size: 14px;
+}
+
+.informational {
+  padding: 20px;
+}
+
+.theme-section {
+  margin-top: 40px;
+}
+
+.theme-section h2 {
+  color: red;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.sets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.set-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+.set-card img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.set-card p {
+  font-size: 13px;
+  line-height: 1.4;
+}
